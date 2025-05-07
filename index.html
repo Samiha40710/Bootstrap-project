@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo.png" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Connect</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+		<div id="slides" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/background.jpg" alt="background">
+					<div class="carousel-caption">
+						<h1 class="display-2">Bootstrap</h1>
+						<h3>Complete Website Layout</h3>
+						<button type="button" class="btn btn-outline-light btn-lg">View Demo</button>
+						<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/background1.jpg" alt="background1">
+			    </div>
+			    <div class="carousel-item">
+					<img src="images/background2.jpg" alt="background2">
+			    </div>
+		    </div>
+		</div>
+		<div class="container-fluid">
+			<div class="row jumbotron">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+					<p class="lead">
+						A web hosting service allows individuals and organizations to make their website accessible via the world wide web. 
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+					<a href="#">
+						<button type="button" class="btn btn-outline-secondary btn-lg">
+							Web Hosting
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">Built with ease.</h1>
+				</div>
+                <div class="col-12"><hr style="width: 25%;">
+                	<p class="lead">Welcome to my Bootstrap 4 website tutorial! Bootstrap is a free and open-source front-end library with HTML and CSS based designs.</p>
+                </div>
+			</div>
+		</div>
+		<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<i class="fas fa-code"></i>
+					<h3>HTML5</h3>
+					<p>Built with the latest version of HTML, HTML5.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<i class="fas fa-bold"></i>
+					<h3>BOOTSTRAP</h3>
+					<p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<i class="fab fa-css3"></i>
+					<h3>CSS3</h3>
+					<p>Built with the latest version of CSS, CSS3.</p>
+				</div>
+			</div>
+			<hr class="my-4">
+		</div>
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-md-12 col-lg-6">
+					<h2>If you build it...</h2>
+					<p>The columns with automatically stack on the top of each other when the screen is less than 576px wide.</p>
+					<p>Resize the browser window to see the effect. Responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic.</p>
+					<p>It can also display the web page differently depending on the screen size or viewing device.</p>
+					<br>
+					<a href="#" class="btn btn-primary">Learn More</a>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/img8.png" class="img-fluid" alt="img8">
+				</div>
+			</div>
+		</div>
+		<hr class="my-4">
+		<figure>
+			<div class="fixed-wrap">
+				<div id="fixed">
+				</div>
+			</div>
+		</figure>
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">Meet the Team</h1>
+				</div><hr style="width: 30%;">
+			</div>
+		</div>
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="images/img2.png" alt="img2">
+						<div class="card-body">
+							<h4 class="card-title">Mary Jo</h4>
+							<p>Mary is a designer with almost 10 years of digital design experience.</p>
+							<a href="#" class="btn btn-outline-secondary">See profile</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="images/img8.png" alt="img2">
+						<div class="card-body">
+							<h4 class="card-title">John Doe</h4>
+							<p>Joe is an internet entrepreneur with almost 20 years of experience.</p>
+							<a href="#" class="btn btn-outline-secondary">See profile</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="images/img11.png" alt="img2">
+						<div class="card-body">
+							<h4 class="card-title">Phil Ho</h4>
+							<p>Phil is a developer with over 5 years of web development experience.</p>
+							<a href="#" class="btn btn-outline-secondary">See profile</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-lg-6">
+					<h2>Our Philosophy</h2>
+					<p>We know that greatness in a disruptive era requires bold ambition, curious talent and a culture that believes we're smarter together.</p>
+					<p>We approach every challenge holistically, with best-in-class expertise in data, creativity, media, technology, search, social and more. We call this Alchemy. It has the power to build our clients' magic, we've got it down to a science.</p>
+					<br>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/bootstrap.png" class="img-fluid" alt="bootstrap">
+				</div>
+			</div>
+			<hr class="my-4">
+		</div>
+		<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-12">
+					<h2>Connect</h2>
+				</div>
+				<div class="col-12 social padding">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-skype"></i></a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container-fluid padding">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<img src="images/logo.png" alt="logo">
+						<hr class="light">
+						<p>555-555-555</p>
+						<p>samihamumtaz891@gmail.com</p>
+						<p>C.G.E Colony Lahore</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Our Hours</h5>
+						<hr class="light">
+						<p>Monday: 9am-5pm</p>
+						<p>Saturday: 10am-4pm</p>
+						<p>Sunday: Closed</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Service Area</h5>
+						<hr class="light">
+						<p>City, State, 00000</p>
+						<p>City, State, 00000</p>
+						<p>City, State, 00000</p>
+						<p>City, State, 00000</p>
+					</div>
+					<div class="col-12">
+						<hr class="light-100">
+						<h5>&copy; shiksha.com</h5>
+					</div>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
